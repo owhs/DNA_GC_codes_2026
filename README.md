@@ -1,6 +1,6 @@
 # Improved lower bounds for DNA codes with constant GC-content (2026-10-14)
 
-34 new lower bounds for the tables of Gaborit and King (https://rambutan.umassmed.edu/king/dnacodes.html, last updated
+39 new lower bounds for the tables of Gaborit and King (https://rambutan.umassmed.edu/king/dnacodes.html, last updated
 2010-06-23): codes of length n over {A,C,G,T} with minimum Hamming distance d and exactly w = floor(n/2) letters in {C,G}
 (table A4^GC), and additionally d(x, rc(y)) >= d for all codewords x, y including x = y, where rc is the reverse
 complement (table A4^GC,RC).
@@ -21,6 +21,7 @@ complement (table A4^GC,RC).
 | A4^GC(11,7,5) | 75 | - | **80** |
 | A4^GC(11,8,5) | 32 | - | **33** |
 | A4^GC(12,9,6) | 24 | - | **28** |
+| A4^GC(13,8,6) | 134 | - | **137** |
 | A4^GC(13,9,6) | 46 | - | **48** |
 | A4^GC(13,10,6) | 20 | - | **21** |
 | A4^GC,RC(7,3,3) | 135 | - | **138** |
@@ -41,6 +42,10 @@ complement (table A4^GC,RC).
 | A4^GC,RC(12,8,6) | 29 | - | **62** |
 | A4^GC,RC(13,7,6) | 206 | - | **209** |
 | A4^GC,RC(13,8,6) | 62 | - | **67** |
+| A4^GC,RC(14,9,7) | 49 | - | **52** |
+| A4^GC,RC(14,10,7) | 20 | - | **26** |
+| A4^GC,RC(15,8,7) | 347 | - | **395** |
+| A4^GC,RC(16,12,8) | 24 | - | **26** |
 
 Literature checked: Chee-Ling 2008, Montemanni-Smith 2008/2009 (already in the 2010 table), Aboluion's 2011 thesis /
 Aboluion-Smith-Perkins, Discrete Math. 312 (2012) (via the thesis tables), Montemanni-Smith-Koul 2014 (as reported in the
